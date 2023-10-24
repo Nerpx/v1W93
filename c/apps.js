@@ -232,7 +232,7 @@ define({
                     '<br><a target="_blank" href=https://raw.githubusercontent.com/nodebox/opentype.js/master/LICENSE">MIT License</p>' +
                     '<p><a target="_blank" href="http://nodebox.github.io/opentype.js/">http://nodebox.github.io/opentype.js/</a></p>',
                 //baseClass: ,
-                url: '/c/programs/apps/opentype/index.php?font=' + opt.url
+                url: '/v1W93/c/programs/apps/opentype/index.php?font=' + opt.url
             });
         }
     }
@@ -271,7 +271,7 @@ define({
                 '<p>Keyboard Controls:\nX/J/[numpad enter] are A.\nZ/Y/Q/[numpad 3] are B.\nShift/[numpad 0] is Select.\nSpace/[numpad .] is Start.\nThe d-pad is the control pad.</p>';
 
             opt = opt || {};
-            opt.url = '/c/programs/emulators/dmg/play.php' + (opt.url ? '?rom=' + opt.url : '');
+            opt.url = '/v1W93/c/programs/emulators/dmg/play.php' + (opt.url ? '?rom=' + opt.url : '');
             opt.help = about;
             opt.minWidth = true;
             opt.minHeight = true;
@@ -373,9 +373,9 @@ define({
             opt.title = 'ByteBeat';
             opt.help = "<b>Credits :</b><br><a target=_blank href='https://github.com/greggman/html5bytebeat'>https://github.com/greggman/html5bytebeat</a>";
 
-            opt.icon = '/c/sys/ico32/bytebeat.png';
+            opt.icon = '/v1W93/c/sys/ico32/bytebeat.png';
             //opt.url = '/c/programs/apps/bytebeat/index.php#t=0&e=1&bb=5d000001006100000000000000003a08022391d5293f69c2e49ecf68456c28c2632528daade8252cb47f5549995f49189b4bbd1728c98726b7aa31fd79883bd31e5b84a9d1ec5dfea5819b1622e4be7fffef360000';
-            opt.url = '/c/programs/apps/bytebeat/index.php';
+            opt.url = '/v1W93/c/programs/apps/bytebeat/index.php';
             opt.width = '700';
             opt.height = '400';
             opt.bodyClass = 'skin_inset_deep';
@@ -396,9 +396,9 @@ define({
             };
 
             $loader([
-                '/c/libs/codemirror/lib/codemirror.js', '/c/libs/codemirror/keymap/sublime.js', '/c/libs/codemirror/mode/css/css.js', '/c/libs/codemirror/mode/javascript/javascript.js'
+                '/v1W93/c/libs/codemirror/lib/codemirror.js', '/v1W93/c/libs/codemirror/keymap/sublime.js', '/v1W93/c/libs/codemirror/mode/css/css.js', '/v1W93/c/libs/codemirror/mode/javascript/javascript.js'
                 //,'/c/libs/codemirror/mode/markdown/markdown.js'
-                , '/c/libs/codemirror/mode/xml/xml.js', '/c/libs/codemirror/lib/codemirror.css', '/c/libs/codemirror/theme/cobalt.css'
+                , '/v1W93/c/libs/codemirror/mode/xml/xml.js', '/v1W93/c/libs/codemirror/lib/codemirror.css', '/v1W93/c/libs/codemirror/theme/cobalt.css'
             ], function(CodeMirror) {
                 //console.log('CodeMirror is a function', typeof CodeMirror === 'function');
                 //console.log('javascript mode is defined', CodeMirror.defaults.mode === 'javascript');
@@ -456,7 +456,7 @@ define({
                                 title: 'About',
                                 //width: 450,
                                 msg: '<b>CodeMirror</b> is a versatile text editor implemented in JavaScript for the browser.<br><b>Copyright (C) 2014 by Marijn Haverbeke</b><br>MIT license<br><a href="http://codemirror.net" target="_blank">codemirror.net</a>',
-                                img: '/c/libs/codemirror/doc/logo.png',
+                                img: '/v1W93/c/libs/codemirror/doc/logo.png',
                                 onopen: $noop
                             });
                             //$info('<img src="/c/libs/codemirror/doc/logo.png">CodeMirror is a versatile text editor implemented in JavaScript for the browser.<br><a href="http://codemirror.net" target="_blank">codemirror.net</a>')
@@ -531,7 +531,7 @@ define({
             'use strict';
             var scope = this;
             $loader([
-                '/c/programs/apps/catExplorer/catExplorer.js' // <-------- catExplorer's mess moved to it's own file ;)
+                '/v1W93/c/programs/apps/catExplorer/catExplorer.js' // <-------- catExplorer's mess moved to it's own file ;)
             ], function(catex) {
                 catex.exec(scope, theurl);
             });
@@ -726,7 +726,7 @@ define({
                   }});
                 }, false);*/
                 btn.onclick = function() {
-                    $explorer('/c/files/sounds/', {
+                    $explorer('/v1W93/c/files/sounds/', {
                         list: true,
                         browse: true,
                         onclose: function(ok, val) {
@@ -807,7 +807,7 @@ define({
 
                 $window({
                     title: 'poney jockey',
-                    icon: 'c/sys/ico32/poney.gif',
+                    icon: '/v1W93/c/sys/ico32/poney.gif',
                     bodyClass: 'ui_vj skin_base',
                     html: ui,
                     animationIn: false,
@@ -1037,14 +1037,14 @@ define({
                 $error({
                     msg: msg,
                     title: 'MANIFESTO',
-                    img: '/c/sys/ico32/question.png',
+                    img: '/v1W93/c/sys/ico32/question.png',
                     btnCancel: 'wtf?',
                     animationIn: '',
                     animationOut: '',
                     oncancel: function(ok) {
                         //if (!QUACK) QUACK = $sound('/c/sys/sounds/QUACK.ogg');
                         //QUACK.play();
-                        $sound('/c/sys/sounds/QUACK.ogg').play();
+                        $sound('/v1W93/c/sys/sounds/QUACK.ogg').play();
                         this.el.body.querySelector('.ui_alert__text').innerHTML = idea();
                         return false;
                     }
@@ -1063,8 +1063,8 @@ define({
         exec: function() {
             var iframe;
             var data = {
-                url: '/c/programs/games/solitude/index.html',
-                icon: '/c/sys/ico32/solitaire.gif',
+                url: '/v1W93/c/programs/games/solitude/index.html',
+                icon: '/v1W93/c/sys/ico32/solitaire.gif',
                 title: 'Solitude',
                 width: 630,
                 height: 440,
@@ -1104,7 +1104,7 @@ define({
         exec: function() {
             var data = {
                 url: 'https://www.youtube.com/embed/C7fKoamz0nY?showinfo=0&amp;autoplay=1',
-                icon: '/c/sys/ico32/potato.png',
+                icon: '/v1W93/c/sys/ico32/potato.png',
                 title: 'POTATO',
                 width: 560,
                 height: 315
@@ -1116,7 +1116,7 @@ define({
         exec: function() {
             var data = {
                 url: 'https://www.youtube.com/embed/sy8Utr0CvBI?showinfo=0&amp;autoplay=1',
-                icon: '/c/sys/ico32/trophy.gif',
+                icon: '/v1W93/c/sys/ico32/trophy.gif',
                 title: 'ANTHOLOGY',
                 width: 560,
                 height: 315
@@ -1132,7 +1132,7 @@ define({
         exec: function() {
             var data = {
                 url: 'https://www.youtube.com/embed/x9xDXU2WJeY?showinfo=0&amp;autoplay=1',
-                icon: '/c/sys/ico32/sound_on.png',
+                icon: '/v1W93/c/sys/ico32/sound_on.png',
                 title: 'Windows93™ LIVE BAND',
                 width: 560,
                 height: 315
@@ -1148,8 +1148,8 @@ define({
     "castlegafa": {
         exec: function() {
             var data = {
-                url: '/c/programs/games/castleGafa/index.html',
-                icon: '/c/programs/games/castleGafa/icon.gif',
+                url: '/v1W93/c/programs/games/castleGafa/index.html',
+                icon: '/v1W93/c/programs/games/castleGafa/icon.gif',
                 title: 'Castle GAFA 3D',
                 help: '<b>Credits :</b><br><a target="_blank" href="https://github.com/loadx/html5-wolfenstein3D">https://github.com/loadx/html5-wolfenstein3D</a><br><a target="_blank" href="http://3d.wolfenstein.com">http://3d.wolfenstein.com</a>',
                 width: 640,
@@ -1161,7 +1161,7 @@ define({
     "defrag": {
         exec: function() {
             var data = {
-                url: '/c/programs/games/defrag/index.php',
+                url: '/v1W93/c/programs/games/defrag/index.php',
                 title: 'DEFRAG',
                 width: 640,
                 height: 495
@@ -1288,8 +1288,8 @@ define({
     "gravity": {
         exec: function() {
             this.load([
-                '/c/libs/jquery.min.js',
-                '/c/libs/jGravity-min.js'
+                '/v1W93/c/libs/jquery.min.js',
+                '/v1W93/c/libs/jGravity-min.js'
             ], function() {
                 $('#w93_desktop').jGravity({
                     target: '.ui_icon,.ui_window',
@@ -1304,7 +1304,7 @@ define({
         exec: function() {
             $exe('layer', {
                 title: 'lisa',
-                url: '/c/files/images/gif/lisa.gif',
+                url: '/v1W93/c/files/images/gif/lisa.gif',
                 onopen: function(win) {
                     setTimeout(function() {
                         win.style.top = 'auto';
@@ -1325,7 +1325,7 @@ define({
                 $alert({
                     msg: 'Cut off a head, two more will take its place.<br>[ Hydra ViRuS BioCoded by Typhon/Échidna ]',
                     title: 'HYDRA',
-                    img: '/c/sys/ico32/hydra.png',
+                    img: '/v1W93/c/sys/ico32/hydra.png',
                     baseClass: 'virus virus--hydra ui_alert',
                     center: false,
                     cb: function(ok) {
@@ -1375,7 +1375,7 @@ define({
             function $docAlert(msg) {
                 $alert({
                     title: 'Doctor Marburg Antivirus',
-                    img: '/c/sys/ico32/doctor.gif',
+                    img: '/v1W93/c/sys/ico32/doctor.gif',
                     btnOk: 'Thanks !',
                     msg: msg
                 });
@@ -1398,7 +1398,7 @@ define({
                 function() {
                     $confirm({
                         title: 'Doctor Marburg Antivirus',
-                        img: '/c/sys/ico32/doctor.gif',
+                        img: '/v1W93/c/sys/ico32/doctor.gif',
                         btnOk: 'Breathe',
                         msg: "Breathe in and out please..."
                     }, function(isOk) {
@@ -1408,7 +1408,7 @@ define({
                 function() {
                     $prompt({
                         title: 'Doctor Marburg Antivirus',
-                        img: '/c/sys/ico32/doctor.gif',
+                        img: '/v1W93/c/sys/ico32/doctor.gif',
                         btnOk: 'Say it',
                         msg: 'Say 99...'
                     }, function(isOk, res) {
@@ -1417,7 +1417,7 @@ define({
                         } else if (isOk) {
                             $confirm({
                                 title: 'Doctor Marburg Antivirus',
-                                img: '/c/sys/ico32/doctor.gif',
+                                img: '/v1W93/c/sys/ico32/doctor.gif',
                                 btnOk: "Let's do that",
                                 msg: "Mhh, you're very sick, unfortunately I can't do anything for you... Except cleaning your computer"
                             }, function(isOk, res) {
@@ -1431,13 +1431,13 @@ define({
                 function() {
                     $confirm({
                         title: 'Doctor Marburg Antivirus',
-                        img: '/c/sys/ico32/doctor.gif',
+                        img: '/v1W93/c/sys/ico32/doctor.gif',
                         msg: 'Welcome to Doctor Marburg Antivirus.<br>Would you like to clean your System ?'
                     }, function(isOk, res) {
                         if (isOk) {
                             $confirm({
                                 title: 'Doctor Marburg Antivirus',
-                                img: '/c/sys/ico32/doctor.gif',
+                                img: '/v1W93/c/sys/ico32/doctor.gif',
                                 btnOk: 'Sure',
                                 btnCancel: 'Not Really',
                                 msg: '<b>Warning !</b><br>Doctor Marburg is not responsible for direct, indirect, incidental or consequential damages resulting from any defect, error or failure to perform this ilegal operation.<br><br>Do you want to perform anyway ?'
@@ -1445,7 +1445,7 @@ define({
                                 if (isOk) {
                                     $prompt({
                                         title: 'Doctor Marburg Antivirus',
-                                        img: '/c/sys/ico32/doctor.gif',
+                                        img: '/v1W93/c/sys/ico32/doctor.gif',
                                         btnCancel: 'Never Mind',
                                         msg: 'Ok, please confirm with your credit card number'
                                     }, function(isOk, res) {
@@ -1454,7 +1454,7 @@ define({
                                         } else {
                                             $confirm({
                                                 title: 'Doctor Marburg Antivirus',
-                                                img: '/c/sys/ico32/doctor.gif',
+                                                img: '/v1W93/c/sys/ico32/doctor.gif',
                                                 btnOk: 'Sure',
                                                 msg: 'I was just testing you ;)<br>Do the cleaning operation anyway ?'
                                             }, function(isOk, res) {
@@ -1493,8 +1493,8 @@ define({
         exec: function(arg, term) {
             var scope = this;
             this.load([
-                '/c/libs/html2canvas.min.js',
-                '/c/libs/glitch-canvas.min.js'
+                '/v1W93/c/libs/html2canvas.min.js',
+                '/v1W93/c/libs/glitch-canvas.min.js'
             ], function(_, glitch) {
 
                 var elCanvas, anim;
@@ -1587,7 +1587,7 @@ define({
             context.mozImageSmoothingEnabled = false;
             context.imageSmoothingEnabled = false;
             //var audioKill = $sound('/c/programs/marburg/killAll.ogg');
-            var audioBlop = $sound('/c/sys/sounds/BLOP.ogg');
+            var audioBlop = $sound('/v1W93/c/sys/sounds/BLOP.ogg');
             marburg = [];
             var numMarburg = 1;
             var marburgKill = 0;
@@ -1609,7 +1609,7 @@ define({
 
             var imageObj = new Image();
             imageObj.onload = function() {};
-            imageObj.src = '/c/files/images/png/error-alpha.png';
+            imageObj.src = '/v1W93/c/files/images/png/error-alpha.png';
             animate();
 
             var animID;
