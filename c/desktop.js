@@ -86,51 +86,51 @@ define([{
         title: "Poney Jockey"
     }, {
         exe: "bytebeat",
-        ico: "/c/sys/ico32/bytebeat.png",
+        ico: "/v1W93/c/sys/ico32/bytebeat.png",
         title: "Byte Beat"
     }, {
-        url: "/c/programs/apps/pukeData/index.html",
+        url: "/v1W93/c/programs/apps/pukeData/index.html",
         width: "600",
         height: "400",
         help: "Random Drones Generator by Sébastien Piquemal",
         ico: "pd",
         title: "Puke Data"
     }, {
-        url: "/c/programs/apps/speech/index.php",
+        url: "/v1W93/c/programs/apps/speech/index.php",
         width: "200",
         height: "400",
         help: "chrome only...",
         ico: "voice",
         title: "Speech"
     }, {
-        url: "/c/files/roms/dmg/music/lsdj3_1_9_demo.gb",
+        url: "/v1W93/c/files/roms/dmg/music/lsdj3_1_9_demo.gb",
         ico: "lsdj",
         title: "LSDJ"
     }, {
-        url: "/c/files/roms/dmg/music/nanoloop171d.gb",
+        url: "/v1W93/c/files/roms/dmg/music/nanoloop171d.gb",
         ico: "nanoloop",
         title: "Nanoloop"
     }, {
-        url: "/c/files/roms/dmg/fail/Glitch_Grrrlz-Vol01.gbc",
+        url: "/v1W93/c/files/roms/dmg/fail/Glitch_Grrrlz-Vol01.gbc",
         ico: "glitchgirlz",
         title: "Glitch Grrrlz"
     }, '<br>',
     {
-        url: "/c/programs/games/robby/index.html",
+        url: "/v1W93/c/programs/games/robby/index.html",
         width: "420",
         height: "400",
         help: "Robby : ascii based game by Morusque <3",
         ico: "robby",
         title: "Robby"
     }, {
-        url: "/c/programs/demos/dangerous/index.html",
+        url: "/v1W93/c/programs/demos/dangerous/index.html",
         width: "500",
         height: "440",
         footer: "&nbsp;",
         ico: "dangerous",
         title: "Take this"
     }, {
-        url: "/c/files/roms/dmg/fail/Pokeglitch.gb",
+        url: "/v1W93/c/files/roms/dmg/fail/Pokeglitch.gb",
         width: "320",
         height: "288",
         ico: "helix",
@@ -138,7 +138,7 @@ define([{
     }, {
         title: "What If?",
         ico: "matrix",
-        url: "/c/programs/demos/matrix/index.php",
+        url: "/v1W93/c/programs/demos/matrix/index.php",
         width: "600",
         height: "400"
     }, {
@@ -150,14 +150,14 @@ define([{
         help: "INCEPTION"
     }, {
         title: "WIN93TOUR simulator",
-        ico: "/c/sys/ico32/wintour.gif",
+        ico: "/v1W93/c/sys/ico32/wintour.gif",
         width: 640,
         height: 480,
-        url: "c/programs/games/euroDrunkSimulator/index.html"
+        url: "/v1W93/c/programs/games/euroDrunkSimulator/index.html"
     }, {
         title: "HAMPSTER",
-        ico: "/c/programs/demos/hampsterDance/icon.gif",
-        url: "/c/programs/demos/hampsterDance/index.html",
+        ico: "/v1W93/c/programs/demos/hampsterDance/icon.gif",
+        url: "/v1W93/c/programs/demos/hampsterDance/index.html",
         bodyClass: "skin_light skin_inset",
         width: "600",
         height: "400"
@@ -172,14 +172,14 @@ define([{
     {
         title: "lenna.png",
         ico: "img",
-        url: "/c/files/images/png/lenna.png",
+        url: "/v1W93/c/files/images/png/lenna.png",
         bodyClass: "noscroll",
         width: "512",
         height: "512"
     }, {
         title: "Star Wars.avi",
         ico: "yoda",
-        url: "/c/programs/demos/starwars/index.html",
+        url: "/v1W93/c/programs/demos/starwars/index.html",
         width: "890",
         height: "344",
         help: "Star Wars Asciimation created by <a href=http://www.asciimation.co.nz/ target=_blank>www.asciimation.co.nz</a>"
@@ -214,11 +214,11 @@ define([{
         exe: "marburg"
     }, {
         title: "POTATO",
-        ico: "/c/sys/ico32/potato.png",
+        ico: "/v1W93/c/sys/ico32/potato.png",
         exe: 'potato'
     }, {
         title: "ANTHOLOGY",
-        ico: "/c/sys/ico32/trophy.gif",
+        ico: "/v1W93/c/sys/ico32/trophy.gif",
         exe: 'anthology'
     }, '<br>',
     {
@@ -233,20 +233,20 @@ define([{
     }, {
         title: "Acid Box 93",
         ico: "acidBox",
-        url: "/c/programs/demos/acidBox93/index.html",
+        url: "/v1W93/c/programs/demos/acidBox93/index.html",
         width: "600",
         height: "400",
         help: "Demoscene tribute 4 Acid loverz...'<br>' Acid mix by Dj Invisible Pink'<br>'Cracktro Maded with CODEF <3"
     }, {
         title: "Arena 93",
         ico: "arena93",
-        url: "/c/programs/games/Arena93/index.html",
+        url: "/v1W93/c/programs/games/Arena93/index.html",
         width: "600",
         height: "400"
     }, {
         title: "Game Of Life",
         ico: "gameOfLife",
-        url: "/c/programs/demos/gameOfLife/index.html",
+        url: "/v1W93/c/programs/demos/gameOfLife/index.html",
         width: "600",
         height: "600"
     }, {
@@ -264,7 +264,7 @@ define([{
     }, {
         title: "Defrag",
         ico: "defrag",
-        url: "/c/programs/games/defrag/index.php",
+        url: "/v1W93/c/programs/games/defrag/index.php",
         width: "640",
         height: "495"
     }, '<br>',
@@ -275,7 +275,7 @@ define([{
     }, {
         title: "OLDEST GIF OF THE INTERWEBZ.gif",
         ico: "img",
-        url: "/c/files/images/gif/wind.gif",
+        url: "/v1W93/c/files/images/gif/wind.gif",
         width: "148",
         height: "175"
     }, {
@@ -285,7 +285,7 @@ define([{
     }, {
         title: "Credits",
         ico: "txt",
-        url: "/c/credits.html",
+        url: "/v1W93/c/credits.html",
         bodyClass: "skin_light skin_inset",
         width: "450",
         height: "300"
@@ -307,7 +307,7 @@ define([{
     */
     {
         title: "WINDOWS93 HAZ A BAND",
-        ico: "/c/sys/ico32/sound_on.png",
+        ico: "/v1W93/c/sys/ico32/sound_on.png",
         exe: 'live'
     }, {
         title: "Contact us",
@@ -317,7 +317,7 @@ define([{
     {
         title: "TRASH",
         ico: "recycle_bin",
-        url: "/c/trash/",
+        url: "/v1W93/c/trash/",
         width: "440",
         height: "330"
     }
