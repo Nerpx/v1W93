@@ -7,14 +7,14 @@
 
 @font-face {
     font-family: px_sans_nouveaux;
-    src: url(/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.eot);
-    src: url(/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.eot?#iefix) format('embedded-opentype'), url(/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.woff2) format('woff2'), url(/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.woff) format('woff'), url(/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.ttf) format('truetype'), url(/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.svg#px_sans_nouveaux) format('svg')
+    src: url(/v1W93/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.eot);
+    src: url(/v1W93/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.eot?#iefix) format('embedded-opentype'), url(/v1W93/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.woff2) format('woff2'), url(/v1W93/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.woff) format('woff'), url(/v1W93/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.ttf) format('truetype'), url(/v1W93/c/sys/fonts/px_sans_nouveaux/px_sans_nouveaux.svg#px_sans_nouveaux) format('svg')
 }
 
 @font-face {
     font-family: Tomo;
-    src: url(/c/sys/fonts/Tomo/Tomo.eot);
-    src: url(/c/sys/fonts/Tomo/Tomo.eot?#iefix) format('embedded-opentype'), url(/c/sys/fonts/Tomo/Tomo.woff2) format('woff2'), url(/c/sys/fonts/Tomo/Tomo.woff) format('woff'), url(/c/sys/fonts/Tomo/Tomo.ttf) format('truetype'), url(/c/sys/fonts/Tomo/Tomo.svg#tomoregular) format('svg')
+    src: url(/v1W93/c/sys/fonts/Tomo/Tomo.eot);
+    src: url(/v1W93/c/sys/fonts/Tomo/Tomo.eot?#iefix) format('embedded-opentype'), url(/v1W93/c/sys/fonts/Tomo/Tomo.woff2) format('woff2'), url(/v1W93/c/sys/fonts/Tomo/Tomo.woff) format('woff'), url(/v1W93/c/sys/fonts/Tomo/Tomo.ttf) format('truetype'), url(/v1W93/c/sys/fonts/Tomo/Tomo.svg#tomoregular) format('svg')
 }
 
 .ui_terminal,
@@ -28,7 +28,7 @@
 
 html,
 body {
-    cursor: url(/c/sys/cursors/cursor.cur), auto
+    cursor: url(/v1W93/c/sys/cursors/cursor.cur), auto
 }
 
 html,
@@ -360,19 +360,19 @@ input[type=button]:focus::-moz-focus-inner {
 }
 
 .ui_window__head__close {
-    background-image: url(/c/sys/img/close1.png)
+    background-image: url(/v1W93/c/sys/img/close1.png)
 }
 
 .ui_window__head__maximize {
-    background-image: url(/c/sys/img/maximize1.png)
+    background-image: url(/v1W93/c/sys/img/maximize1.png)
 }
 
 .ui_window__head__minimize {
-    background-image: url(/c/sys/img/minimize1.png)
+    background-image: url(/v1W93/c/sys/img/minimize1.png)
 }
 
 .ui_window__head__help {
-    background-image: url(/c/sys/img/help1.png)
+    background-image: url(/v1W93/c/sys/img/help1.png)
 }
 
 .ui_window_docked__icon,
@@ -507,7 +507,7 @@ code.language-javascript button {
 }
 
 .ui_window_docked--minimized {
-    background-image: url(/c/sys/img/trame.png)
+    background-image: url(/v1W93/c/sys/img/trame.png)
 }
 
 #w93_icons>.ui_icon {
