@@ -1,0 +1,405 @@
+.ico {
+    width: 32px;
+    height: 32px;
+    background-image: url("/c/sys/sprites.png");
+}
+
+.ico--a1 {
+    background-position: -0px -0px;
+}
+
+.ico--acidBox {
+    background-position: -0px -32px;
+}
+
+.ico--alert {
+    background-position: -0px -64px;
+}
+
+.ico--annaKournikova {
+    background-position: -0px -96px;
+}
+
+.ico--arena93 {
+    background-position: -0px -128px;
+}
+
+.ico--backup {
+    background-position: -0px -160px;
+}
+
+.ico--bytebeat {
+    background-position: -0px -192px;
+}
+
+.ico--c64 {
+    background-position: -0px -224px;
+}
+
+.ico--chat {
+    background-position: -0px -256px;
+}
+
+.ico--codemirror {
+    background-position: -0px -288px;
+}
+
+.ico--computer {
+    background-position: -0px -320px;
+}
+
+.ico--config {
+    background-position: -0px -352px;
+}
+
+.ico--css {
+    background-position: -0px -384px;
+}
+
+.ico--cubes {
+    background-position: -0px -416px;
+}
+
+.ico--cur {
+    background-position: -0px -448px;
+}
+
+.ico--dangerous {
+    background-position: -0px -480px;
+}
+
+.ico--database {
+    background-position: -0px -512px;
+}
+
+.ico--defrag {
+    background-position: -0px -544px;
+}
+
+.ico--desktop {
+    background-position: -0px -576px;
+}
+
+.ico--doctor {
+    background-position: -0px -608px;
+}
+
+.ico--documents {
+    background-position: -0px -640px;
+}
+
+.ico--dolphin {
+    background-position: -0px -672px;
+}
+
+.ico--dora {
+    background-position: -0px -704px;
+}
+
+.ico--error {
+    background-position: -0px -736px;
+}
+
+.ico--explorer {
+    background-position: -0px -768px;
+}
+
+.ico--file {
+    background-position: -0px -800px;
+}
+
+.ico--find {
+    background-position: -0px -832px;
+}
+
+.ico--folder {
+    background-position: -0px -864px;
+}
+
+.ico--font {
+    background-position: -0px -896px;
+}
+
+.ico--framapad {
+    background-position: -0px -928px;
+}
+
+.ico--gameOfLife {
+    background-position: -0px -960px;
+}
+
+.ico--gb {
+    background-position: -0px -992px;
+}
+
+.ico--gbc {
+    background-position: -0px -1024px;
+}
+
+.ico--glitchgirlz {
+    background-position: -0px -1056px;
+}
+
+.ico--globe {
+    background-position: -0px -1088px;
+}
+
+.ico--hd {
+    background-position: -0px -1120px;
+}
+
+.ico--helix {
+    background-position: -0px -1152px;
+}
+
+.ico--help {
+    background-position: -0px -1184px;
+}
+
+.ico--html {
+    background-position: -0px -1216px;
+}
+
+.ico--hydra {
+    background-position: -0px -1248px;
+}
+
+.ico--img {
+    background-position: -0px -1280px;
+}
+
+.ico--inception {
+    background-position: -0px -1312px;
+}
+
+.ico--info {
+    background-position: -0px -1344px;
+}
+
+.ico--js {
+    background-position: -0px -1376px;
+}
+
+.ico--letter {
+    background-position: -0px -1408px;
+}
+
+.ico--lsdj {
+    background-position: -0px -1440px;
+}
+
+.ico--magic {
+    background-position: -0px -1472px;
+}
+
+.ico--mail {
+    background-position: -0px -1504px;
+}
+
+.ico--mails {
+    background-position: -0px -1536px;
+}
+
+.ico--matrix {
+    background-position: -0px -1568px;
+}
+
+.ico--md {
+    background-position: -0px -1600px;
+}
+
+.ico--music {
+    background-position: -0px -1632px;
+}
+
+.ico--my_documents {
+    background-position: -0px -1664px;
+}
+
+.ico--nanoloop {
+    background-position: -0px -1696px;
+}
+
+.ico--network {
+    background-position: -0px -1728px;
+}
+
+.ico--news {
+    background-position: -0px -1760px;
+}
+
+.ico--nfo {
+    background-position: -0px -1792px;
+}
+
+.ico--note {
+    background-position: -0px -1824px;
+}
+
+.ico--nyanexplorer {
+    background-position: -0px -1856px;
+}
+
+.ico--paint {
+    background-position: -0px -1888px;
+}
+
+.ico--pd {
+    background-position: -0px -1920px;
+}
+
+.ico--pdf {
+    background-position: -0px -1952px;
+}
+
+.ico--php {
+    background-position: -0px -1984px;
+}
+
+.ico--pin {
+    background-position: -0px -2016px;
+}
+
+.ico--programs {
+    background-position: -0px -2048px;
+}
+
+.ico--py {
+    background-position: -0px -2080px;
+}
+
+.ico--question {
+    background-position: -0px -2112px;
+}
+
+.ico--recycle {
+    background-position: -0px -2144px;
+}
+
+.ico--recycle_bin {
+    background-position: -0px -2176px;
+}
+
+.ico--rescan {
+    background-position: -0px -2208px;
+}
+
+.ico--rescan2 {
+    background-position: -0px -2240px;
+}
+
+.ico--robby {
+    background-position: -0px -2272px;
+}
+
+.ico--rss {
+    background-position: -0px -2304px;
+}
+
+.ico--run {
+    background-position: -0px -2336px;
+}
+
+.ico--scan {
+    background-position: -0px -2368px;
+}
+
+.ico--settings {
+    background-position: -0px -2400px;
+}
+
+.ico--shutdown {
+    background-position: -0px -2432px;
+}
+
+.ico--sick {
+    background-position: -0px -2464px;
+}
+
+.ico--sms {
+    background-position: -0px -2496px;
+}
+
+.ico--solitaire {
+    background-position: -0px -2528px;
+}
+
+.ico--sound {
+    background-position: -0px -2560px;
+}
+
+.ico--sound_off {
+    background-position: -0px -2592px;
+}
+
+.ico--sound_on {
+    background-position: -0px -2624px;
+}
+
+.ico--stats {
+    background-position: -0px -2656px;
+}
+
+.ico--terminal {
+    background-position: -0px -2688px;
+}
+
+.ico--textchat {
+    background-position: -0px -2720px;
+}
+
+.ico--trophy {
+    background-position: -0px -2752px;
+}
+
+.ico--ttf {
+    background-position: -0px -2784px;
+}
+
+.ico--tunnel {
+    background-position: -0px -2816px;
+}
+
+.ico--txt {
+    background-position: -0px -2848px;
+}
+
+.ico--video {
+    background-position: -0px -2880px;
+}
+
+.ico--voice {
+    background-position: -0px -2912px;
+}
+
+.ico--win93 {
+    background-position: -0px -2944px;
+}
+
+.ico--xray {
+    background-position: -0px -2976px;
+}
+
+.ico--yoda {
+    background-position: -0px -3008px;
+}
+
+.ico--zip {
+    background-position: -0px -3040px;
+}
+
+.ico--zkype {
+    background-position: -0px -3072px;
+}
+
+.ico--corgi {
+    background-image: url("/c/sys/ico32/corgi.gif");
+}
+
+.ico--drivea {
+    background-image: url("/c/sys/ico32/drivea.gif");
+}
+
+.ico--poney {
+    background-image: url("/c/sys/ico32/poney.gif");
+}

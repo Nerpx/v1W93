@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BOOTING WINDOWS 93...</title>
+
+
+    <script src="codef_core.js"></script>
+    <script src="codef_fx.js"></script>
+
+    <style type="text/css" media="screen">
+        body {
+            background-color: #000;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        #loader {
+            display: none;
+            position: absolute;
+            width: 126px;
+            height: 15px;
+            background-image: url('http://www.windows93.net/c/sys/img/progress_bar.gif');
+            position: absolute;
+            top: calc(50% + 100px);
+            left: calc(50% - 63px);
+        }
+
+        #main {
+            top: 0px;
+        }
+    </style>
+
+    <script>
+        // defaut logo
+        //var myimage = new image('http://www.windows93.net/c/sys/img/logow.png');
+
+        //xmas logo
+        var myimage = new image('http://www.windows93.net/c/sys/img/logow.png');
+
+
+        var mycanvas;
+        var myoffscreencanvas;
+        var myfx;
+        var myfxparam = [{
+                value: 0,
+                amp: 10,
+                inc: 0.01,
+                offset: 0
+            },
+            {
+                value: 0,
+                amp: 10,
+                inc: 0,
+                offset: 0
+            }
+        ];
+
+
+
+        function init() {
+            myoffscreencanvas = new canvas(223, 185); // i dont specify a div to make it hidden ;)
+            myimage.draw(myoffscreencanvas, 0, 0); // I draw my logo to my offscreen canvas.
+
+            mycanvas = new canvas(223, window.innerHeight, "main");
+            myfx = new FX(myoffscreencanvas, mycanvas, myfxparam);
+
+
+            go();
+            document.getElementById('loader').style.display = "initial";
+        }
+
+        function go() {
+
+
+            if (myfxparam[1].inc < 1) {
+                myfxparam[1].inc = myfxparam[1].inc + 0.001;
+            }
+
+
+            if (myfxparam[0].amp < 10) {
+                myfxparam[0].amp = myfxparam[0].amp + 0.1;
+                myfxparam[1].amp = myfxparam[1].amp + 0.1;
+            };
+
+            if (myfxparam[0].offset > -0.05) {
+                myfxparam[0].offset = myfxparam[0].offset - 0.01;
+                myfxparam[1].offset = myfxparam[1].offset + 0.01;
+            };
+
+
+            mycanvas.fill('#000000');
+            myfx.siny(0, window.innerHeight / 2 - 155);
+
+            requestAnimFrame(go);
+        }
+    </script>
+</head>
+
+<body onLoad="init();">
+    <center>
+        <div id="main"></div>
+
+        <div id="loader"></div>
+    </center>
+</body>
+
+</html>
