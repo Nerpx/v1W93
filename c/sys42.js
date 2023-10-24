@@ -5302,8 +5302,8 @@ function simulateClick(e) {
             resizable: false,
             center: true
         },
-        n = $sound("/c/sys/sounds/CHORD.ogg"),
-        i = $sound("/c/sys/sounds/QUACK.ogg");
+        n = $sound("/v1W93/c/sys/sounds/CHORD.ogg"),
+        i = $sound("/v1W93/c/sys/sounds/QUACK.ogg");
 
     function o(e, i) {
         var o = $extend({
